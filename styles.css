@@ -1,0 +1,61 @@
+
+#main-content h1{
+    color: #5e747f;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 80px;
+    padding: 150px;
+    background: linear-gradient(to bottom, #e5c1bd, #2e3e61);
+    /* Replace #ff0000 and #00ff00 with your desired colors */
+    /* You can also adjust the direction of the gradient by changing "to right" */
+    /* Add any other desired styles for the h1 element */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+#main-content h2{
+    color: #2e3e61;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 40%;
+}
+
+
+body {
+    background-image: linear-gradient(to bottom, #d2d0ba, #5e747f);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+
+}
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #d2d0ba;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

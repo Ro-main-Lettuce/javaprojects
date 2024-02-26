@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+
+    <!-- User Authentication Form -->
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+
+      <button type="submit">Login</button>
+    </form>
+
+    <!-- To-Do List -->
+    <div id="todo-list-container" style="display: none">
+      <ul id="todo-list">
+        <!-- Your to-do items will be added here -->
+      </ul>
+
+      <!-- Add New To-Do Item Form -->
+      <form id="add-todo-form">
+        <label for="todo-item">New To-Do Item:</label>
+        <input type="text" id="todo-item" name="todo-item" required />
+
+        <button type="submit">Add</button>
+      </form>
+    </div>
+
+    <script scr="user.js"></script>
+  </body>
+</html>
