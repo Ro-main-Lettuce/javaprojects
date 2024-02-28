@@ -7,9 +7,6 @@
     font-size: 80px;
     padding: 150px;
     background: linear-gradient(to bottom, #e5c1bd, #2e3e61);
-    /* Replace #ff0000 and #00ff00 with your desired colors */
-    /* You can also adjust the direction of the gradient by changing "to right" */
-    /* Add any other desired styles for the h1 element */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -55,7 +52,7 @@ nav {
     background-color: #d2d0ba;
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Change from 'center' to 'flex-start' */
     align-items: center;
 }
 
