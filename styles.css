@@ -44,7 +44,8 @@ a{
 
 
 
-nav {
+nav {  
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -54,5 +55,130 @@ nav {
     display: flex;
     justify-content: flex-start; /* Change from 'center' to 'flex-start' */
     align-items: center;
+}
+img:hover {
+    transform: scale(1.5);
+}
+    
+
+nav a:hover {
+    font-weight: bold;
+    font-size: 16px;
+}
+#form_sheet h1 {
+    color: #2e3e61;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 10%;
+
+}
+#login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+   
+}
+.container {
+    
+    margin: 1rem;
+    width:400px;
+    max-width: 400px;
+    padding:2rem;
+    box-shadow: 0 0 40px rgba(0,0,0,0.2);
+    border-radius: var(--radius);
+    background: #ffffff;
+   
+}
+
+.container,
+    .form_input,
+    .form_button {
+        font: 400 1rem 'times new roman', sans-serif;
+    
+}
+.form_button:hover{
+    background-cxolor: #d2d0ba;
+
+}
+.form--hidden{
+    display: none;
+}
+.form > *:first-child{
+    margin-top: 0;
+}
+.form > *:last-child{
+    margin-bottom: 0;
+}
+.form_title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.form__message{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.form__message--sucess{
+    color:green;
+}
+.form__message--error{
+    color:red;
+}
+.form_input-group{
+    margin-bottom: 1rem;
+}
+.form_input{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #d2d0ba;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+}
+.form_input:focus{
+    border-color: #2e3e61;
+    background: #ffffff;
+}
+.form_input--error{
+    border-color: red;
+    color:red;
+}
+.form_button{
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size:1.1rem ;
+    color:#ffffff;
+    border:none;
+    border-radius: var(--border-radius);
+    outline:none;
+    cursor: pointer;
+    color: #2e3e61;
+    
+}
+.form_button:hover{
+    background-color: #d2d0ba;
+}   
+.form_button:active{
+    transform: scale(0.98);
+}
+.form-text{
+    text-align: center;
+
+}
+.form_link{
+    color: #2e3e61;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.form_link:hover{
+    text-decoration: underline;
 }
 
